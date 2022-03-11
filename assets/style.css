@@ -144,7 +144,9 @@ footer {
   .hero-img {
       width: 300px;
       height: auto;
-      border-radius: 50%;
+      overflow:hidden;
+      box-sizing:border-box;
+      border-radius: 30%;
   }
 
 
