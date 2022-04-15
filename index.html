@@ -1,152 +1,93 @@
 <!DOCTYPE html>
-<html Lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device=width, initial-scale=1.0" /> 
-        <link rel="stylesheet" href="./assets/style.css">
-        <title>AML Portfolio</title>
-    </head>
-    <body>
-          <!-- navigation tags - block level element -->
-    <header>
-        <h1>
-          <a href="#top">Austin Merrick Leaman</a>
-        
-        </h1>
-        <nav>
-        <ul>
-            <li>
-              <a href="#about-me">About Me</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#contact-me">Contact Me</a>
-            </li>
-        </ul>
-        </nav>
-    </header>
-
-    <!-- hero/jumbotron -->
-
-    <section class="hero">
-      <div class="hero-cta">
-        <h2>About Me</h2>
-        <p>
-       I am a new web developer based out of Indiana currently working on getting my certification through Butler University.
-       I am excited about the prospect of a new career and intend to update this page consistently to better show progressing skill as a developer. 
-        </p>
-      </div>
-       <div class="hero-img">
-        <img src='./assets/Images/dashing fellow.jpeg'; alt="Avatar of Austin Merrick Leaman" width="100%" height="100%"/>
-       </div>
-     </section>
-
-      <!-- end header -->
-
-      <!-- "Projects" start -->
-      <section id="projects" class="step">
-        <h2 class="section-title">
-          Projects
-        </h2>
-        
-        <div class="step">
-          <div class="step-img1">
-            <a href="https://auzzie1790.github.io/Run-Buddy/">
-              <img src="./assets/Images/Site1.png" alt="icon of a laptop with fake text, mountains, font, and brackets."/>
-            </a>
-              <h2>
-                Run Buddy
-              </h2>
-          </div>
-        </div>
-
-        <div class="step">
-
-          <div class="step-img2">
-            <a href="https://www.zanymals.com">
-              <img src="./assets/Images/Site2.png" alt="icon of a webpage." />
-            </a>
-              <h2> 
-                Zanymals
-              </h2>
-          </div>
-
-          <div class="step-img2">
-              <a href="https://auzzie1790.github.io/travelfog/">
-                <img src="./assets/Images/site3.png" alt="Icon of a laptop sending text messages." />
-              </a>
-              <h2>
-                TravelFog
-              </h2>
-          </div>
-
-        </div>
-
-        <div class="step">
-          <div class="step-img3">
-            <a href="https://penguins.detroitzoo.org/">
-              <img src="./assets/Images/Site4.png" alt="Icon of a desktop showing code." />
-            </a>
-              <h2>
-                Placeholder
-              </h2>
-          </div>
-
-          <div class="step-img3">
-            <a href="https://detroitmi.gov/">
-              <img src="./assets/Images/Site5.png" alt="Icon of a desktop downloading something from the cloud." />
-            </a>
-              <h2>
-                Placeholder
-              </h2>
-          </div>
-          
-          <div class="step-img3">
-            <a href="https://mgoblue.com/">
-              <img src="./assets/Images/Site6.png" alt="Icon of a desktop showing API." />
-            </a>
-              <h2>
-                Placeholder
-              </h2>
-          </div>
-        </div>
-      </section>
-      <!-- "what you do" end -->
-  
-      <!-- "Contact me" start -->
-      <div>
-        <h2 class="section-title-contact-me">
-          Contact Me
-        </h2>
-      </div>
-      <section id="contact-me" class="contact">
-        <div class="contact-info">
-          <div>
-            <h3>Austin Merrick Leaman</h3>
-            <p>
-              For any and all inqueries please reach out!  
-            </p>
-  
-            <address>
-              615 Cherry St, Apt 511 <br/>
-              Terre Haute, IN<br/>
-              47807<br/>
-              P: (734) 552-5678<br/>
-              E: <a href="mailto:austinleaman@ooutlook.com">Austinleaman@outlook.com</a>
-            </address>
-            
-          </div>
-        </div>
-      </section>
-      <!-- "Contact me" end -->
-              
-      <!-- footer -->
-      <footer>
-        <h2>Made by AML Productions.</h2>
-      </footer>
-      <!-- footer end -->
-    </body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Austin Leaman Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body class="has-navbar-fixed-top has-background-danger">
+<!-- Navbar Start -->
+    <nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="assets/Images/siteLogo.png" width="100" height="100">
+        </a>
     
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+            Home
+          </a>
+    
+          <a class="navbar-item">
+            Projects
+          </a>
+
+          <a class="navbar-item">
+            About
+          </a>
+
+          <a class="navbar-item">
+            Contact
+          </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+<!-- Navbar End -->
+
+<!-- about me card -->
+  <div class="columns is-centered mt-5">
+    <div class="column card is-one-third">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="assets/Images/dashing fellow.jpeg" alt="Austin Leaman Figure">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-48x48">
+              <img class= 'is-rounded' img src="assets/Images/dashing fellow.jpeg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="title is-4">Austin Merrick Leaman</p>
+            <p class="subtitle is-6">@austinleaman</p>
+          </div>
+        </div>
+    
+        <div class="content">
+          I am a new web developer based out of Indiana currently working on getting my certification through Butler University.
+          I am excited about the prospect of a new career and intend to update this page consistently to better show progressing skill as a developer.
+        </div>
+
+        <footer class="card-footer">
+          <p class="card-footer-item">
+            <span>
+              Follow me on  <a href="https://twitter.com/austinleaman">Twitter</a>
+            </span>
+          </p>
+          <p class="card-footer-item">
+            <span>
+              Check out my <a href="https://github.com/Auzzie1790">GitHub</a>
+            </span>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </div>
+<!-- About me end-->
+
+
+  </body>
 </html>
